@@ -1,4 +1,4 @@
-
+//script to print date 
 var date = new Date();
 var year = date.getUTCFullYear();
 var month = date.getUTCMonth() + 1;
