@@ -10,7 +10,7 @@ var sec = date.getUTCSeconds();
 
 var str = day + "-" + month + "-" + year + " " + hours + ":" + min + ":" + sec ;
 var fs = require('fs');
-fs.writeFile("output.txt", str, function(err) {
+fs.writeFile("test/output.txt", str, function(err) {
     if(err) {
         return console.log(err);
     }
